@@ -23,6 +23,7 @@ export default function AnimatedDots() {
     let dots: Dot[] = []
 
     function resize() {
+      if (!canvas || !ctx) return
       width = window.innerWidth
       height = window.innerHeight
       dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1))
@@ -57,6 +58,7 @@ export default function AnimatedDots() {
     }
 
     function step() {
+      if (!ctx) return
       // background fade for trailing effect
       ctx.clearRect(0, 0, width, height)
 
@@ -112,6 +114,7 @@ export default function AnimatedDots() {
       rafRef.current = requestAnimationFrame(step)
     } else {
       // Reduced-motion: single render (no animation)
+      if (!ctx) return
       const isDark = resolvedTheme === 'dark'
       ctx.fillStyle = isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.55)'
       for (let i = 0; i < 80; i++) {
