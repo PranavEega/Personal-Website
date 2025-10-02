@@ -34,7 +34,7 @@ export default function ProjectsPage() {
       slug: 'personal-website',
       title: 'Personal Website',
       blurb: 'This portfolio site built with Next.js, featuring terminal navigation.',
-      image: '/p.png'
+      image: '/P.png'
     },
   ]
 
