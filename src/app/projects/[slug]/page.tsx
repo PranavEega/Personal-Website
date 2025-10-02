@@ -154,7 +154,7 @@ const projects = {
   'personal-website': {
     title: 'Personal Website',
     period: '2025',
-    image: '/p.png',
+    image: '/P.png',
     content: (
       <>
         <p className="text-xl leading-relaxed mb-6">
