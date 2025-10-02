@@ -136,7 +136,7 @@ export default function ExperienceDetail({ params }: { params: { slug: keyof typ
           transition={{ duration: 0.25, ease: 'easeOut' }}
           className="rounded-xl border bg-card p-6 md:p-8 shadow-lg"
         >
-          {data.image && (
+          {'image' in data && data.image && (
             <div className="rounded-lg overflow-hidden mb-6">
               <img
                 src={data.image}
