@@ -244,12 +244,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-4">
             {/* Navigation Items */}
             <div className="flex items-center gap-2">
-              {getVisibleNavItems().map(({ href, icon: Icon, label, active }) => (
+              {getVisibleNavItems().map(({ href, icon: Icon, label }) => (
                 <Link
                   key={href}
                   href={href}
                   className={`group flex flex-col items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-1 ${
-                    active || pathname === href ? 'text-primary bg-primary/5' : 'opacity-70 hover:opacity-100'
+                    pathname === href ? 'text-primary bg-primary/5' : 'opacity-70 hover:opacity-100'
                   }`}
                 >
                   <Icon className="h-5 w-5 transition-all duration-300 group-hover:scale-110" />
