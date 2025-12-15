@@ -34,10 +34,10 @@ export default function HomePage() {
                 <a href="https://github.com/" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
                   <Github className="h-4 w-4" />
                 </a>
-                <a href="https://www.linkedin.com/" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
+                <a href="www.linkedin.com/in/pranav-eega" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
                   <Linkedin className="h-4 w-4" />
                 </a>
-                <a href="mailto:you@example.com" className="btn btn-outline h-10 px-3 hover-lift">
+                <a href="mailto:eegapr1@gmail.com" className="btn btn-outline h-10 px-3 hover-lift">
                   <Mail className="h-4 w-4" />
                 </a>
               </div>
