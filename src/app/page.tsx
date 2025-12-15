@@ -31,7 +31,7 @@ export default function HomePage() {
                   View Projects <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
                 <a href="/contact" className="btn btn-outline h-10 px-5 hover-lift">Contact</a>
-                <a href="https://github.com/" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
+                <a href="https://github.com/PranavEega" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
                   <Github className="h-4 w-4" />
                 </a>
                 <a href="www.linkedin.com/in/pranav-eega" className="btn btn-outline h-10 px-3 hover-lift" target="_blank" rel="noreferrer">
