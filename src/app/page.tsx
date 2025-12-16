@@ -42,7 +42,6 @@ export default function HomePage() {
                 >
                   <Linkedin className="h-4 w-4" />
                 </a>
-                </a>
                 <a href="mailto:eegapr1@gmail.com" className="btn btn-outline h-10 px-3 hover-lift">
                   <Mail className="h-4 w-4" />
                 </a>
